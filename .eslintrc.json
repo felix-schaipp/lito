@@ -2,35 +2,21 @@
   "root": true,
   "extends": "@react-native-community",
   "parser": "@typescript-eslint/parser",
-  "plugins": [
-    "react",
-    "@typescript-eslint",
-    "react-hooks"
-  ],
+  "plugins": ["react", "@typescript-eslint", "react-hooks"],
   "rules": {
     "no-use-before-define": "off",
-    "@typescript-eslint/no-use-before-define": [
-      "error"
-    ],
+    "@typescript-eslint/no-use-before-define": ["error"],
     "@typescript-eslint/no-empty-function": "off",
     "react/react-in-jsx-scope": "off",
     "react/jsx-filename-extension": [
       "warn",
       {
-        "extensions": [
-          ".tsx",
-          ".ts"
-        ]
+        "extensions": [".tsx", ".ts"]
       }
     ],
     "no-shadow": "off",
-    "@typescript-eslint/no-shadow": [
-      "error"
-    ],
-    "indent": [
-      "error",
-      2
-    ],
+    "@typescript-eslint/no-shadow": ["error"],
+    "indent": ["error", 2],
     "max-len": [
       "warn",
       {
@@ -41,17 +27,8 @@
     "react-hooks/exhaustive-deps": "warn",
     "import/prefer-default-export": "off",
     "react/prop-types": "off",
-    "linebreak-style": [
-      "error",
-      "unix"
-    ],
-    "quotes": [
-      "error",
-      "single"
-    ],
-    "semi": [
-      "error",
-      "never"
-    ]
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "never"]
   }
 }

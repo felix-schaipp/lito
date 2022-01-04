@@ -15,7 +15,7 @@
   },
   "lint-staged": {
     "*.{js,tsx,ts,json}*": "yarn format",
-    "*.*": "yarn lint"
+    "*.*": "yarn lint:fix"
   },
   "dependencies": {
     "react": "17.0.2",
