@@ -3,9 +3,13 @@
   "extends": "@react-native-community",
   "parser": "@typescript-eslint/parser",
   "plugins": ["react", "@typescript-eslint", "react-hooks"],
+  "env": {
+    "jest": true
+  },
   "rules": {
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": ["error"],
+    "curly": ["warn", "multi-or-nest"],
     "@typescript-eslint/no-empty-function": "off",
     "react/react-in-jsx-scope": "off",
     "react/jsx-filename-extension": [
