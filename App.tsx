@@ -10,7 +10,9 @@
 
 import React from 'react'
 import { NativeRouter, Route, Routes } from 'react-router-native'
-import { Todos, Navigation } from './src/navigation'
+import {
+  BaseLayout,
+} from './src/navigation'
 
 const App = () => {
   // const isDarkMode = useColorScheme() === 'dark'
@@ -22,7 +24,7 @@ const App = () => {
   return (
     <NativeRouter>
       <Routes>
-        <Route path="/" element={<Navigation />}>
+          <Route path="/" element={<BaseLayout />}>
           <Route path="todos" element={<Todos />} />
         </Route>
         {/* <Route path="groceries" component={<Money />} />

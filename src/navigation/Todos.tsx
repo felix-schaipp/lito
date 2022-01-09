@@ -46,9 +46,9 @@ export const Todos = () => {
   }
 
   return (
-    <ScrollView>
-      <View style={tw`flex flex-col items-center`}>
-        <Text>My todos</Text>
+    <ScrollView style={tw`w-full h-full`}>
+      <View style={tw`flex flex-col p-4`}>
+        <Text style={tw`font-jost text-xl text-gray-500`}>Todos</Text>
         <TodoList
           todoList={todoList.filter(todoListItem => !todoListItem.checked)}
           toggleTodo={toggleTodo}
