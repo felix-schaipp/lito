@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00A71354C87D474282FCE539 /* Jost-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 741E10D6F6364CC3B7037E27 /* Jost-ExtraBold.ttf */; };
 		00E356F31AD99517003FC87E /* litoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* litoTests.m */; };
+		0A56EE2CAEC245258BCC9ADC /* Jost-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DD5B6D5B73D4A6FB7BBDA10 /* Jost-Thin.ttf */; };
+		0DE57D78D9D84211B80E17B1 /* Jost-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 194095F29C04439BB65B84A8 /* Jost-Regular.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		3004E8A3652047F0A2FBA848 /* Jost-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47DB39AA5E484E3EBDB03233 /* Jost-Light.ttf */; };
+		471F09ACE9AF45909A3BBEEC /* Jost-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1FB2BD85E3064E82A296350D /* Jost-Bold.ttf */; };
+		553B9847FB9647C38CF83D45 /* Jost-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 943FAF1D05D24FFFB1D3408C /* Jost-Medium.ttf */; };
 		6172F2D35A4C3AA820D92908 /* libPods-lito.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6423831EA8574132BED9D8CC /* libPods-lito.a */; };
 		7EF68E3733C33B6898317E18 /* libPods-lito-litoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFE59519B596E51CEFDCCC0 /* libPods-lito-litoTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		D039F79AB1B0473CB5D01094 /* Jost-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FD58787750544D6897FD5E4 /* Jost-ExtraLight.ttf */; };
+		D0E1E1A782014D13810F046C /* Jost-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D103155F4E94C23BAAB877C /* Jost-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +44,18 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = lito/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = lito/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = lito/main.m; sourceTree = "<group>"; };
+		194095F29C04439BB65B84A8 /* Jost-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Jost-Regular.ttf"; path = "../src/assets/fonts/Jost-Regular.ttf"; sourceTree = "<group>"; };
 		1D0AE47A65C8663E3B452821 /* Pods-lito-litoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lito-litoTests.release.xcconfig"; path = "Target Support Files/Pods-lito-litoTests/Pods-lito-litoTests.release.xcconfig"; sourceTree = "<group>"; };
+		1FB2BD85E3064E82A296350D /* Jost-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Jost-Bold.ttf"; path = "../src/assets/fonts/Jost-Bold.ttf"; sourceTree = "<group>"; };
+		47DB39AA5E484E3EBDB03233 /* Jost-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Jost-Light.ttf"; path = "../src/assets/fonts/Jost-Light.ttf"; sourceTree = "<group>"; };
 		6423831EA8574132BED9D8CC /* libPods-lito.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lito.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C97AB639B58BBB4B15BBE30 /* Pods-lito-litoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lito-litoTests.debug.xcconfig"; path = "Target Support Files/Pods-lito-litoTests/Pods-lito-litoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		741E10D6F6364CC3B7037E27 /* Jost-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Jost-ExtraBold.ttf"; path = "../src/assets/fonts/Jost-ExtraBold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = lito/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D103155F4E94C23BAAB877C /* Jost-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Jost-SemiBold.ttf"; path = "../src/assets/fonts/Jost-SemiBold.ttf"; sourceTree = "<group>"; };
+		943FAF1D05D24FFFB1D3408C /* Jost-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Jost-Medium.ttf"; path = "../src/assets/fonts/Jost-Medium.ttf"; sourceTree = "<group>"; };
+		9DD5B6D5B73D4A6FB7BBDA10 /* Jost-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Jost-Thin.ttf"; path = "../src/assets/fonts/Jost-Thin.ttf"; sourceTree = "<group>"; };
+		9FD58787750544D6897FD5E4 /* Jost-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Jost-ExtraLight.ttf"; path = "../src/assets/fonts/Jost-ExtraLight.ttf"; sourceTree = "<group>"; };
 		ABFE59519B596E51CEFDCCC0 /* libPods-lito-litoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lito-litoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A881CF5CF3F2B244570E2A /* Pods-lito.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lito.debug.xcconfig"; path = "Target Support Files/Pods-lito/Pods-lito.debug.xcconfig"; sourceTree = "<group>"; };
 		D00AAFFCFCFDA5787532823F /* Pods-lito.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lito.release.xcconfig"; path = "Target Support Files/Pods-lito/Pods-lito.release.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +122,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		69AC7B20106248528782956A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1FB2BD85E3064E82A296350D /* Jost-Bold.ttf */,
+				741E10D6F6364CC3B7037E27 /* Jost-ExtraBold.ttf */,
+				9FD58787750544D6897FD5E4 /* Jost-ExtraLight.ttf */,
+				47DB39AA5E484E3EBDB03233 /* Jost-Light.ttf */,
+				943FAF1D05D24FFFB1D3408C /* Jost-Medium.ttf */,
+				194095F29C04439BB65B84A8 /* Jost-Regular.ttf */,
+				8D103155F4E94C23BAAB877C /* Jost-SemiBold.ttf */,
+				9DD5B6D5B73D4A6FB7BBDA10 /* Jost-Thin.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +154,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				E233CBF5F47BEE60B243DCF8 /* Pods */,
+				69AC7B20106248528782956A /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -245,6 +278,14 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				471F09ACE9AF45909A3BBEEC /* Jost-Bold.ttf in Resources */,
+				00A71354C87D474282FCE539 /* Jost-ExtraBold.ttf in Resources */,
+				D039F79AB1B0473CB5D01094 /* Jost-ExtraLight.ttf in Resources */,
+				3004E8A3652047F0A2FBA848 /* Jost-Light.ttf in Resources */,
+				553B9847FB9647C38CF83D45 /* Jost-Medium.ttf in Resources */,
+				0DE57D78D9D84211B80E17B1 /* Jost-Regular.ttf in Resources */,
+				D0E1E1A782014D13810F046C /* Jost-SemiBold.ttf in Resources */,
+				0A56EE2CAEC245258BCC9ADC /* Jost-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
