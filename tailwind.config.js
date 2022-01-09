@@ -1,8 +1,17 @@
+const { customColors } = require('./config')
+
 module.exports = {
   purge: [],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'media',
   theme: {
-    extend: {},
+    colors: {
+      ...customColors,
+    },
+    extend: {
+      fontFamily: {
+        jost: ['Jost', 'sans-serif'],
+      },
+    },
     screens: {
       sm: '380px',
       md: '420px',
