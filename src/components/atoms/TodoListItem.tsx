@@ -1,7 +1,7 @@
 import React from 'react'
-import { Switch, Text, View } from 'react-native'
-import { tw } from '../../../config'
+import { View } from 'react-native'
 import { Todo } from '../../types'
+import BouncyCheckbox from 'react-native-bouncy-checkbox'
 
 export function TodoListItem({
   todoListItem,
@@ -15,8 +15,11 @@ export function TodoListItem({
   }
   return (
     <View>
-      <Switch value={todoListItem.checked} onChange={handleChange} />
-      <Text style={tw`ml-2`}>{todoListItem.name}</Text>
+      <BouncyCheckbox
+        isChecked={todoListItem.checked}
+        text={todoListItem.name}
+        onPress={handleChange}
+      />
     </View>
   )
 }
