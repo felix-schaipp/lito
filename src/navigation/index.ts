@@ -1,2 +1,7 @@
 export { Todos } from './Todos'
 export { Navigation } from './Navigation'
+export { BaseLayout } from './BaseLayout'
+export { Settings } from './Settings'
+export { Groceries } from './Groceries'
+export { Money } from './Money'
+export { Planner } from './Planner'

@@ -11,7 +11,12 @@
 import React from 'react'
 import { NativeRouter, Route, Routes } from 'react-router-native'
 import {
+  Todos,
   BaseLayout,
+  Settings,
+  Money,
+  Groceries,
+  Planner,
 } from './src/navigation'
 
 const App = () => {
@@ -26,6 +31,10 @@ const App = () => {
       <Routes>
           <Route path="/" element={<BaseLayout />}>
           <Route path="todos" element={<Todos />} />
+            <Route path="settings" element={<Settings />} />
+            <Route path="money" element={<Money />} />
+            <Route path="groceries" element={<Groceries />} />
+            <Route path="planner" element={<Planner />} />
         </Route>
         {/* <Route path="groceries" component={<Money />} />
         <Route path="money" component={<Groceries />} />
